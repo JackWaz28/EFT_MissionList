@@ -1,7 +1,7 @@
 {
-  "name": "fs-app-template",
+  "name": "EFT_MissionList",
   "version": "2.0.0",
-  "description": "Some boilerplate code to get you started - get shakin'!",
+  "description": "Better way to display, track, and organize EFT missions",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -17,7 +17,7 @@
     "test:dev:models": "npm run test:dev -- --grep=model",
     "test:dev:routes": "npm run test:dev -- --grep=route"
   },
-  "author": "Fullstack Academy of Code",
+  "author": "Jack Wasilewksi",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",

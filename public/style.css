@@ -19,3 +19,22 @@ form div {
   margin: 1em;
   display: inline-block;
 }
+
+.traders-grid-homepage {
+  display: grid;
+  vertical-align: middle;
+  grid-template: 50%;
+  grid-template-columns: 10% 10% 10% 10%;
+  grid-gap: 20px;
+  background-color: #000000;
+  padding: 20px;
+}
+
+.traders-grid-items {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  background-color: #707070;
+  padding: 20px 0;
+  font-size: 30px;
+}

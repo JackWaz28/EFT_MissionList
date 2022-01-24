@@ -1,3 +1,5 @@
+const anime = require('animejs');
+
 body {
   font-family: sans-serif;
 }
@@ -34,4 +36,20 @@ form div {
   width: 75%;
   padding: 10px 10px;
   font-size: 30px;
+}
+
+.mapPage-grid {
+  display: grid;
+  max-width: 100%
+}
+
+.map-item-grid {
+  justify-content: center;
+  max-width: 100%
+}
+
+.map-mission-tag {
+  max-height: 5%;
+  max-width: 5%;
+  z-index: 1;
 }
